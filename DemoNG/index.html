@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Scripts/angular-csp.css" rel="stylesheet" />
+</head>
+<body ng-app="main">
+    <header>
+        <div class="jumbotron">
+            Welcome to NG World
+        </div>
+
+    </header>
+
+    <ng-view></ng-view>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <script src="app/services/module.js"></script>
+    <script src="app/main.js"></script>
+
+    <script src="app/services/MyService.js"></script>
+    <script src="app/components/mainPage/mainPage.js"></script>
+</body>
+</html>
